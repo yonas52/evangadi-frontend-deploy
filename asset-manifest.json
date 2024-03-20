@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/evangadi-frontend-deploy/static/css/main.290608ed.css",
+    "main.js": "/evangadi-frontend-deploy/static/js/main.a6baf95e.js",
+    "static/media/background.png": "/evangadi-frontend-deploy/static/media/background.0cc3275840b21a857452.png",
+    "index.html": "/evangadi-frontend-deploy/index.html",
+    "main.290608ed.css.map": "/evangadi-frontend-deploy/static/css/main.290608ed.css.map",
+    "main.a6baf95e.js.map": "/evangadi-frontend-deploy/static/js/main.a6baf95e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.290608ed.css",
+    "static/js/main.a6baf95e.js"
+  ]
+}
