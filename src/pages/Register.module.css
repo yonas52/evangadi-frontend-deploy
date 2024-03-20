@@ -1,0 +1,189 @@
+.registration_section {
+  text-align: center;
+  padding-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.13);
+}
+.overlay {
+  position: relative;
+  top: 1;
+  left: 0;
+  width: auto;
+  height: auto;
+  /* background-color: rgba(255, 255, 255, 0.2);Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -100px;
+  padding-top: 40px;
+}
+.registration_form {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  height: 300px;
+  width: 600px;
+
+  /* padding-top: 20px; */
+  background-color: white;
+}
+.registration_form div {
+  padding: 0px;
+}
+.form_group {
+  margin-bottom: 10px;
+}
+.formflex {
+  display: flex;
+  /* gap: 10px; */
+  /* max-width: 500px; */
+  /* width: 100%; */
+}
+
+.form_input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 40px;
+}
+.form_input:focus {
+  outline: none;
+}
+.eyeIcon {
+  margin-left: 500px;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  color: black;
+}
+.form_inputflex {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 40px;
+  margin-right: 60px;
+}
+.form_inputflex:focus {
+  outline: none;
+}
+.form_inputflex2 {
+  width: 270px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 40px;
+  /* margin-right: 50px; */
+
+  /* margin-left: 70px; */
+}
+.form_inputflex2 {
+  outline: none;
+}
+.RequireInformation {
+  margin-left: 140px;
+}
+.Lastname {
+  width: 320px;
+  margin-left: 10px;
+}
+.register_button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.register_button:hover {
+  background-color: #0056b3;
+}
+
+.login_link {
+  display: block;
+  /* margin-top: 10px; */
+  text-decoration: none;
+  color: red;
+}
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.login_link:hover {
+  text-decoration: underline;
+}
+.red_link {
+  color: red;
+  /* text-align: center; */
+}
+.red_linkAccount {
+  color: red;
+  margin-left: 50px;
+}
+.PrivacyPolicy {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.Account {
+  margin-top: 20px;
+}
+
+.overlay h4 {
+  margin-left: 30px;
+  margin-bottom: -1%;
+}
+.overlay h4 button {
+  background-color: #fe8402;
+  margin-top: 20px;
+  width: 200px;
+}
+.overlay h1 {
+  padding-top: 10px;
+  color: #65657d;
+}
+.overlay p {
+  max-width: 600px;
+  text-align: justify;
+  margin: 10px 0;
+  color: #65657d;
+}
+@media (max-width: 1200px) {
+  /* Hide elements except for the form section */
+  .registration_section {
+    width: 100px;
+    display: flex;
+    margin-left: -200px;
+  }
+  .registration_form {
+    width: 350px;
+  }
+  .Lastname {
+    width: 200px;
+  }
+  .eyeIcon {
+    margin-left: 230px;
+  }
+  .register_button2 {
+    display: none;
+  }
+  .overlay h1,
+  .overlay p,
+  /* .overlay button, */
+  .overlay h4 {
+    display: none;
+  }
+  .RequireInformation {
+    margin-left: 40px;
+  }
+}

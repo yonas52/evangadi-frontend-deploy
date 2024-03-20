@@ -1,0 +1,149 @@
+.Questions {
+  padding: 20px;
+  /* border-bottom: 1px solid #ccc; */
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.Questions h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 180px;
+}
+
+.Questions h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 180px;
+}
+
+.Questions h5 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+  margin-left: 180px;
+}
+
+.horizontal_line {
+  border: none;
+  height: 0.5px;
+  background-color: #ccc;
+  margin: 20px 0;
+  margin-right: 170px;
+  margin-left: 180px;
+}
+.question_content {
+  display: flex;
+  align-items: center;
+}
+.user_name {
+  /* margin: -5px 0; */
+  font-size: 14px;
+  color: #2a3243;
+  margin-top: -5px;
+  margin-left: 20px;
+  font-weight: 800;
+}
+.title p {
+  white-space: nowrap;
+  display: inline;
+  margin-left: 30px;
+  font-weight: bold;
+  color: #2a3243;
+}
+
+.questions_list {
+  margin-left: 290px;
+  margin-top: -20px;
+}
+
+.question_form_container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.question_form_container h2 {
+  text-align: center;
+  padding-right: 40%;
+}
+.Ask_Puplic {
+  margin-top: 120px;
+  padding-bottom: -15px;
+}
+.Ask_Puplic p {
+  margin-left: 90px;
+}
+.question_form_container p {
+  text-align: center;
+  padding-right: 45%;
+}
+.question_form {
+  margin-top: 0px;
+  width: 900px;
+}
+.RequireInformation {
+  margin-left: 80px;
+}
+.form_group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .Questions h2,
+  .Questions h4,
+  .Questions h5 {
+    margin-left: 0;
+  }
+
+  .horizontal_line {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .questions_list {
+    margin-left: 0;
+  }
+
+  .question_form_container {
+    padding: 0 10px;
+  }
+
+  .Ask_Puplic p,
+  .RequireInformation {
+    margin-left: 0;
+  }
+}

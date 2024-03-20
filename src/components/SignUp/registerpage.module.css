@@ -1,0 +1,9 @@
+.background_image {
+  background-image: url("../../Assets/Images/background.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.About {
+  margin-left: 52%;
+}

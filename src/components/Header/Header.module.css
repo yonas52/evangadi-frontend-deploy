@@ -1,0 +1,85 @@
+.site_header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 10vh;
+  color: black;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  border-bottom: 2px solid #ebedf1;
+  padding: 20px;
+}
+.logo {
+  margin-right: 300px;
+}
+.logo img {
+  width: 200px;
+}
+.main_nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.main_nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main_nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main_nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+.signin_btn {
+  margin-left: 10px;
+}
+.signin_btn button {
+  background-color: blue;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin_btn .button:hover {
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 1200px) {
+  .site_header {
+    display: flex;
+    gap: 20px;
+    height: auto;
+    padding: 10px;
+    margin-right: -200px;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: -250px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .main_nav ul li {
+    display: none;
+    margin: 5px 0;
+  }
+
+  .signin_btn {
+    display: block;
+  }
+}
