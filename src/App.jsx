@@ -48,7 +48,7 @@ useEffect(() => {
 
 
   return (
-    <Appstate.Provider value={{user:user,setuser:setuser,name}} >
+    <Appstate.Provider value={{user:user,setuser:setuser}} >
       <Routes>
       <Route path="/" element={<Home/>}/> 
       <Route path="/login" element={<LoginPage />} />
