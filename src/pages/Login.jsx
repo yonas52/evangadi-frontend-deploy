@@ -125,7 +125,7 @@ function Login() {
           <a className={Classes.login_link} href={`/login`}>
             About
           </a>
-          <h1>Evangadi Networks Q&A</h1>
+          <div className={Classes.networks}><p>Evangadi Networks Q&A</p></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             distinctio laborum mollitia incidunt, quia dolores eum optio

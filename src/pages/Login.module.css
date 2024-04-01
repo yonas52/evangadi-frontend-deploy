@@ -163,6 +163,11 @@
   padding-top: 10px;
   color: #65657d;
 }
+.networks p{
+  padding-top: 5px;
+  color: #65657d;
+  font-size: 30px;
+}
 .overlay p {
   max-width: 600px;
   text-align: justify;
